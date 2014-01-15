@@ -14,6 +14,7 @@ print "There are", cars, "cars available."
 
 print "There are only", drivers, "drivers available."
 print "We can transport", carpool_capacity, "people today"
+print "We hav %d to carbool today." % passengers
 print "We have", passengers, "to carpool today."
-print "We need to  put ", average_passengers_per_car, "in each car"
-print "average passengers", average_passengers_per_car
+print "We need to put %d in each car.", (average_passengers_per_car, cars_driven)
+
